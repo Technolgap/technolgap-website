@@ -1,27 +1,19 @@
-import NavBar from "./NavBar"; 
-import Footer from "./Footer";
+// Other imports
 
-const layoutStyle = {
-    display: "flex",
-    flexDirection: "column",
-    height: "100%",
-    width: "100%"
-}
+import styles from "./Layout.module.scss";
+import NavBar from "./NavBar"
 
-const contentStyle = {
-    flex: 1,
-    display: "flex",
-    flexDirection: "column"
-}
+// Layout component definition
 
-const Layout = props => (
-    <div className="Layout" style={layoutStyle}>
-        <NavBar /> 
-            <div className="Content" style={contentStyle}>
-                {props.children}
-            </div>
-        <Footer /> 
+const Layout = ({ children }) => {
+  return (
+    <>
+    <NavBar />
+    <div className={styles.Layout}>
+      {children}
     </div>
-)
+    </>
+  )
+}
 
-export default Layout; 
+export default Layout;

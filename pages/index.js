@@ -1,8 +1,5 @@
-import Layout from "../components/Layout"; 
+import Layout from "../components/Layout";
 
-// TODO: decide # of css files 
-import styles from '../styles/Home.module.css'
+const Index = () => <Layout>Welcome to WHATABYTE!</Layout>;
 
-const Index = () => <Layout> Dummy Text Here </Layout>
-
-export default Index
+export default Index;

@@ -1,13 +1,5 @@
-const navBarStyle = {
-    color: "black",
-    width: "100%",
-    height: "22px", // TODO: change height potentially
-}
+import styles from "./NavBar.module.scss";
 
-const NavBar = () => (
-    <div className="NavBar" style={navBarStyle}>
-        NAVBAR 
-    </div>
-)
+const NavBar = () => <div className={styles.NavBar}>NAVBAR</div>;
 
-export default NavBar
+export default NavBar;
