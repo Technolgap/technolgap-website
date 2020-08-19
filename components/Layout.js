@@ -2,6 +2,7 @@
 
 import styles from "./Layout.module.scss";
 import NavBar from "./NavBar"
+import Footer from "./Footer"
 
 // Layout component definition
 
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
     <div className={styles.Layout}>
       {children}
     </div>
+    <Footer /> 
     </>
   )
 }
