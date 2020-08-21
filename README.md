@@ -45,7 +45,7 @@ yarn dev
 
 ## Resources 
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project, take a look at the following resources:
 
 ### NextJS
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -53,7 +53,7 @@ To learn more about Next.js, take a look at the following resources:
 - [the Next.js GitHub repository](https://github.com/vercel/next.js/) - original repo.
 
 ### HTML, CSS, JavaScript
-- [w3cSchools]https://www.w3schools.com/
+- [w3cSchools](https://www.w3schools.com/)
 
 ## Deployment 
 We are using Heroku to deploy 
