@@ -1,6 +1,6 @@
 @import "../../theme/theme";
 
-.NavBar {
+.Quote {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,10 +9,9 @@
     width: 100%;
     padding: 10px 0;
   
-    background-color: $white;
+    background-color: $dusty-red;
   
-    font-family: $secondary-header-font;
+    font-family: $body-font;
     font-size: $body-font-size;
-    color: $misty-pink;
-
-  }
+    color: $raisin-dark;
+}

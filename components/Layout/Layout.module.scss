@@ -9,6 +9,10 @@
   
     height: 100%;
     width: 100%;
+
+    font-family: $body-font;
+    font-size: $body-font-size;
+    color: $raisin-dark;
   
     .Content {
       flex: 1;
