@@ -56,13 +56,20 @@ git checkout -b `initials/general-idea-of-your-ticket
 For example, I'm working on the executive gallery so this would be the name of my branch.
 
 ```
-git checkout -b `mv/create-executive-gallery
+git checkout -b mv/create-executive-gallery
 
 ```
 
-3. Type `git branch` to make sure your in the correct branch.
+3. Type `git branch` to make sure your in the correct branch. In my case, I see something like this:
 
-4. You should be ready to go. Most of the work will be editing the folder of your respective component(s). More details on this later.  
+```
+  master
+* mv/create-executive-gallery
+```
+
+This means I'm on my own branch.
+
+4. You should be ready to go. Most of the work will be editing the folder of your respective component(s). More details on this later but you'll eventually need to open a PR and will need 2-3 reviewers.
 
 ## Resources 
 
