@@ -43,6 +43,27 @@ yarn dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hopefully, you can see the latest version
 
+## Contribution
+1. Find issue(s) to work on and assign yourself to them. 
+
+2. Create a new branch with the following command (or use Github GUI):
+
+```
+git checkout -b `initials/general-idea-of-your-ticket
+
+```
+
+For example, I'm working on the executive gallery so this would be the name of my branch.
+
+```
+git checkout -b `mv/create-executive-gallery
+
+```
+
+3. Type `git branch` to make sure your in the correct branch.
+
+4. You should be ready to go. Most of the work will be editing the folder of your respective component(s). More details on this later.  
+
 ## Resources 
 
 To learn more about the technologies used in this project, take a look at the following resources:
