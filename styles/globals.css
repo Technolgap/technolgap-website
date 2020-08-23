@@ -1,3 +1,15 @@
 body {
     margin: 0px;
 }
+
+p {
+    font-family: 'Barlow', sans-serif;
+} 
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+} 
+
+h1 {
+    font-family: 'Enriqueta', serif;
+}

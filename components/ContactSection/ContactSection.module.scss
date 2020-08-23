@@ -1,6 +1,6 @@
 @import "../../theme/theme";
 
-.Quote {
+.ContactSection {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,9 +9,9 @@
     width: 100%;
     padding: 10px 0;
   
-    background-color: $dusty-red;
+    background-color: $raisin-dark;
   
-    font-family: $body-font;
+    font-family: $secondary-header-font;
     font-size: $body-font-size;
-    color: $raisin-dark;
+    color: $white;
 }

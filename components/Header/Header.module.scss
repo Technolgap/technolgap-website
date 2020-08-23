@@ -1,20 +1,17 @@
+@import "../../theme/theme";
+
 .Header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
   
-    height: 50px;
+    height: 60px;
     width: 100%;
+    padding: 10px 0;
   
-    padding: 0 20px;
+    background-color: $almond;
   
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-  
-    background: crimson;
-  
-    cursor: pointer;
-  }
+    font-family: $secondary-header-font;
+    font-size: 22px;
+    color: $white;
+}
