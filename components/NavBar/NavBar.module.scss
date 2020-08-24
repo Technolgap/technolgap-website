@@ -2,17 +2,33 @@
 
 .NavBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   
-    height: 60px;
-    width: 100%;
-    padding: 10px 0;
+    height: 40px;
+    width: 80%;
+    // padding: 10px 0;
+    margin-left: 10%;
+    // margin-right: 110px;
+    margin-top: 20px;
+    
   
     background-color: $white;
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
-    color: $misty-pink;
+    color: $raisin-dark;
 
   }
+
+
+.technolgap{
+    // margin-right: auto;
+    flex-grow:1;
+
+}
+.navButtons{
+  padding-left: 2%;
+}
+
+  
