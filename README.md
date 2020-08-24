@@ -98,11 +98,8 @@ To learn more about the technologies used in this project, take a look at the fo
 - [w3cSchools](https://www.w3schools.com/)
 
 ## Deployment 
-We are using Heroku to deploy 
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* We are using Heroku to deploy our website (https://technolgap.herokuapp.com/). 
+* The Director of Development (Monica Vu) will be primarily responsible for deploying changes -- you just need to make sure you're able to make changes in your localhost.
 
 ## Commands
 Go to the package.json file to learn more about what commands are available.
