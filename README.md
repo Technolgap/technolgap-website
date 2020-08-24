@@ -44,6 +44,8 @@ yarn dev
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hopefully, you can see the latest version
 
 ## Contribution
+When contributing to this repository, please check the `Issues` tab before opening new issues. If there's task you want to do that involves fixing a bug or refactoring, then feel free to open an issue. Otherwise, please discuss with the Technolgap executive team before. 
+
 1. Find issue(s) to work on and assign yourself to them. 
 
 2. Create a new branch with the following command (or use Github GUI):
@@ -67,9 +69,21 @@ git checkout -b mv/create-executive-gallery
 * mv/create-executive-gallery
 ```
 
-This means I'm on my own branch.
+The * represents the branch that you're on. 
 
-4. You should be ready to go. Most of the work will be editing the folder of your respective component(s). More details on this later but you'll eventually need to open a PR and will need 2-3 reviewers.
+4. You should be ready to go to work. For most cases, majority of the work "should" be editing the folder of your respective component(s) and putting the component(s) in one or more of the page in the `pages` folder to minimize merge conflicts. 
+
+## Pull Request Process
+1. Once you think you've finished your work or have a work in progress, then create a pull request. You will need at least three reviewers who will focus on different areas before you can merge your changes: 
+* Monica Vu: general code architecture, reusability, and maintainablity
+* Tina V: accessibility suggestions
+* One other member not mentioned above: syntax, general understanding 
+
+Standards for code reviews will be posted soon. For now, you will only need approval from the first and third person. 
+
+2. Once the project is deployed, we will need to increase the version number and maintain a `CHANGELOG.md` (coming soon).
+
+3. Make sure the project still properly works along with your new feature.
 
 ## Resources 
 
