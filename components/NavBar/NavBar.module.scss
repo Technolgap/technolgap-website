@@ -1,19 +1,17 @@
 @import "../../theme/theme";
 
-.NavBar {
+.NavBar {  // navbar container
     display: flex;
     justify-content: space-between;
     align-items: center;
   
     height: 40px;
     width: 80%;
-    // padding: 10px 0;
     margin-left: 10%;
-    // margin-right: 110px;
     margin-top: 20px;
     
   
-    background-color: $white;
+    background-color: transparent;
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
@@ -22,13 +20,34 @@
   }
 
 
-.technolgap{
-    // margin-right: auto;
+.technolgap{ // technolgap logo
     flex-grow:1;
-
 }
-.navButtons{
+
+.technolgap:hover{
+  cursor: default; 
+}
+
+.navButtons{  // page navigation links
   padding-left: 2%;
+  background-color: transparent;
 }
 
-  
+.activePage{ // active page indicator (pink rectangle behind current page link)
+  position: fixed;
+  width: 56px;
+  height: 14px;
+  z-index: -1;
+  margin-left: 5px;
+  margin-top: 33px;
+}
+
+.navButtons:hover{
+  cursor: pointer;
+
+}
+
+
+.navButtons:hover .activePage{
+  background-color: $misty-pink;
+}
