@@ -2,10 +2,10 @@
 
 .ExecutiveTeam {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
     width: 100%;
     padding: 10px 0;
   
@@ -14,4 +14,21 @@
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $raisin-dark;
+    p {
+        font-family: $secondary-header-font;
+        font-size: $secondary-header-font;
+        text-align: center;
+    }
+}
+
+.ExecutiveMembers {
+    display: flex;
+}
+
+.Member {
+    width: 5rem;
+}
+
+.responsive {
+    width: 100%;
 }
