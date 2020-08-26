@@ -44,6 +44,8 @@ yarn dev
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hopefully, you can see the latest version
 
 ## Contribution
+When contributing to this repository, please check the `Issues` tab before opening new issues. If there's task you want to do that involves fixing a bug or refactoring, then feel free to open an issue. Otherwise, please discuss with the Technolgap executive team before. 
+
 1. Find issue(s) to work on and assign yourself to them. 
 
 2. Create a new branch with the following command (or use Github GUI):
@@ -56,13 +58,32 @@ git checkout -b `initials/general-idea-of-your-ticket
 For example, I'm working on the executive gallery so this would be the name of my branch.
 
 ```
-git checkout -b `mv/create-executive-gallery
+git checkout -b mv/create-executive-gallery
 
 ```
 
-3. Type `git branch` to make sure your in the correct branch.
+3. Type `git branch` to make sure your in the correct branch. In my case, I see something like this:
 
-4. You should be ready to go. Most of the work will be editing the folder of your respective component(s). More details on this later.  
+```
+  master
+* mv/create-executive-gallery
+```
+
+The * represents the branch that you're on. 
+
+4. You should be ready to go to work. For most cases, majority of the work "should" be editing the folder of your respective component(s) and putting the component(s) in one or more of the page in the `pages` folder to minimize merge conflicts. 
+
+## Pull Request Process
+1. Once you think you've finished your work or have a work in progress, then create a pull request. You will need at least three reviewers who will focus on different areas before you can merge your changes: 
+* Monica Vu: general code architecture, reusability, and maintainablity
+* Tina V: accessibility suggestions
+* One other member not mentioned above: syntax, general understanding 
+
+Standards for code reviews will be posted soon. For now, you will only need approval from the first and third person. 
+
+2. Once the project is deployed, we will need to increase the version number and maintain a `CHANGELOG.md` (coming soon).
+
+3. Make sure the project still properly works along with your new feature.
 
 ## Resources 
 
@@ -77,11 +98,8 @@ To learn more about the technologies used in this project, take a look at the fo
 - [w3cSchools](https://www.w3schools.com/)
 
 ## Deployment 
-We are using Heroku to deploy 
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* We are using Heroku to deploy our website (https://technolgap.herokuapp.com/). 
+* The Director of Development (Monica Vu) will be primarily responsible for deploying changes -- you just need to make sure you're able to make changes in your localhost.
 
 ## Commands
 Go to the package.json file to learn more about what commands are available.
