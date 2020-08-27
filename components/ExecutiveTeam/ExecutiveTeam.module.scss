@@ -14,10 +14,19 @@
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $raisin-dark;
-    p {
+
+    h2 {
         font-family: $secondary-header-font;
         font-size: $secondary-header-font;
         text-align: center;
+        margin: 0
+    }
+    
+    p {
+        font-family: $body-font;
+        font-size: $body-font-size;
+        text-align: center;
+        margin: 0
     }
 }
 
@@ -27,6 +36,7 @@
 
 .Member {
     width: 5rem;
+    padding: 100px;
 }
 
 .responsive {
