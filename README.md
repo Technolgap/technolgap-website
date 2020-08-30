@@ -34,12 +34,10 @@ git clone [fill this with what you copied from step 0]
 
 Note: If you get an error in this step, you may have to delete the `node_modules` folde and run this command again. 
 
-4. You can run the local version of the website locally using `npm` or `yarn` 
+4. You can run the local version of the website locally using `npm`
  
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hopefully, you can see the latest version
 
