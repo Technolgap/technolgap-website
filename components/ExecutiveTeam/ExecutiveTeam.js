@@ -17,14 +17,14 @@ const ExecutiveMember = ({ icon, firstname, lastname, title }) => (
 );
 
 const Members = [
-    <ExecutiveMember icon={AlexaIcon} firstname="Alexa" lastname="Liaskovski" title="co-founder" />,
-    <ExecutiveMember icon={GinaIcon} firstname="Gina" lastname="Bak" title="co-founder" />,
-    <ExecutiveMember icon={MargieIcon} firstname="Margie" lastname="Venes" title="director of external communications" />,
-    <ExecutiveMember icon={MonicaIcon} firstname="Monica" lastname="Vu" title="director of development" />,
-    <ExecutiveMember icon={KateIcon} firstname="Kate" lastname="Allsebrook" title="director of engagement" />,
-    <ExecutiveMember icon={KateIcon} firstname="Mukta" lastname="Manhas" title="director of mentorship" />,
-    <ExecutiveMember icon={KateIcon} firstname="Nishtha" lastname="Mavai" title="director of internal culture" />,
-    <ExecutiveMember icon={KateIcon} firstname="Joyce" lastname="Bacic" title="director of mental health and wellness" />,
+    <ExecutiveMember key="Alexa" icon={AlexaIcon} firstname="Alexa" lastname="Liaskovski" title="co-founder" />,
+    <ExecutiveMember key="Gina" icon={GinaIcon} firstname="Gina" lastname="Bak" title="co-founder" />,
+    <ExecutiveMember key="Margie" icon={MargieIcon} firstname="Margie" lastname="Venes" title="director of external communications" />,
+    <ExecutiveMember key="Monica" icon={MonicaIcon} firstname="Monica" lastname="Vu" title="director of development" />,
+    <ExecutiveMember key="Kate" icon={KateIcon} firstname="Kate" lastname="Allsebrook" title="director of engagement" />,
+    <ExecutiveMember key="Mukta" icon={KateIcon} firstname="Mukta" lastname="Manhas" title="director of mentorship" />,
+    <ExecutiveMember key="Nishtha" icon={KateIcon} firstname="Nishtha" lastname="Mavai" title="director of internal culture" />,
+    <ExecutiveMember key="Joyce" icon={KateIcon} firstname="Joyce" lastname="Bacic" title="director of mental health and wellness" />,
 ]
 
 const ExecutiveTeam = () => 
