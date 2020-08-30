@@ -8,7 +8,7 @@ const MargieIcon = require("../../images/Executives/MargieIcon.svg");
 const MonicaIcon = require("../../images/Executives/MonicaIcon.svg");
 
 const ExecutiveMember = ({ icon, name, title }) => (
-    <div clasName={styles.Member}>
+    <div className={styles.Member}>
         <img src={icon} className={styles.responsive} />
         <h2> {name} </h2>
         <p>{title}</p>
@@ -21,6 +21,9 @@ const Members = [
     <ExecutiveMember icon={MargieIcon} name="Margie Venes" title="director of external communications" />,
     <ExecutiveMember icon={MonicaIcon} name="Monica Vu" title="director of development" />,
     <ExecutiveMember icon={KateIcon} name="Kate Allsebrook" title="director of engagement" />,
+    <ExecutiveMember icon={KateIcon} name="Mukta Manhas "title="director of mentorship" />,
+    <ExecutiveMember icon={KateIcon} name="Nishtha Mavai" title="director of internal culture" />,
+    <ExecutiveMember icon={KateIcon} name="Joyce Bacic" title="director of mental health and wellness" />,
 ]
 
 const ExecutiveTeam = () => 
