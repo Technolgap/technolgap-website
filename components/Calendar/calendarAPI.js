@@ -1,10 +1,10 @@
 import useSWR from 'swr';
 
 // TODO: Replace this with the calendar ID from the google calendar
-const CAL_ID = '';
+const CAL_ID = 'technolgap%40gmail.com';
 
 // TODO: Replace this with the calendar API key that you've created
-const CAL_API_KEY = '';
+const CAL_API_KEY = 'AIzaSyBH72uBP7E9-ub75Ax-Mm6Dk6Zt5jdxWRM';
 const CAL_URL = `https://www.googleapis.com/calendar/v3/calendars/${CAL_ID}/events?key=${CAL_API_KEY}&singleEvents=true`;
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
