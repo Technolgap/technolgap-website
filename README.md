@@ -34,12 +34,10 @@ git clone [fill this with what you copied from step 0]
 
 Note: If you get an error in this step, you may have to delete the `node_modules` folde and run this command again. 
 
-4. You can run the local version of the website locally using `npm` or `yarn` 
+4. You can run the local version of the website locally using `npm`
  
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Hopefully, you can see the latest version
 
@@ -72,6 +70,18 @@ git checkout -b mv/create-executive-gallery
 The * represents the branch that you're on. 
 
 4. You should be ready to go to work. For most cases, majority of the work "should" be editing the folder of your respective component(s) and putting the component(s) in one or more of the page in the `pages` folder to minimize merge conflicts. 
+
+## Tips
+* Make sure you're up to date with the master branch by running the following commands:
+```
+git checkout master
+git pull
+git checkout your-branch-name
+git merge master 
+```
+
+* After pulling from master, make sure your npm modules are up to date by running the following command: `npm install`. If there's errors, delete the `node_modules` folder and re-type the command again. 
+
 
 ## Pull Request Process
 1. Once you think you've finished your work or have a work in progress, then create a pull request. You will need at least three reviewers who will focus on different areas before you can merge your changes: 
