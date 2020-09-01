@@ -5,10 +5,10 @@
     justify-content: space-between;
     align-items: center;
   
-    height: 40px;
+    height: 60px;
     width: 80%;
     margin-left: 10%;
-    margin-top: 20px;
+    // margin-top: 10px;
     
   
     background-color: transparent;
@@ -21,6 +21,7 @@
 
 
 .technolgap{ // technolgap logo
+    position: relative;
     flex-grow:1;
 }
 
@@ -35,17 +36,39 @@
 
 .activePage{ // active page indicator (pink rectangle behind current page link)
   position: fixed;
-  width: 56px;
+  width: auto;
   height: 14px;
   z-index: -1;
   margin-left: 5px;
   margin-top: 33px;
   background-color: $misty-pink;
+  color: transparent;
+}
+
+
+.inactivePage{
+  position: fixed;
+  width: 56px;
+  height: 14px;
+  z-index: -1;
+  margin-left: 5px;
+  margin-top: 33px;
+  background-color: transparent;
+  color: transparent;
+  
 }
 
 .navButtons:hover{
   cursor: pointer;
 
+}
+
+
+.logo{
+  position: absolute;
+  z-index: 1;
+  left: -24.5px;
+  top:-3px
 }
 
 
