@@ -24,3 +24,31 @@ const NavBar=()=>
     </div>;
 
 export default NavBar;
+
+
+
+/* const NavBar=()=>
+  
+   
+    <nav  className={styles.NavBar}>
+        
+        <ul className = {styles.navList}>
+            
+            <li className = {styles.navItem}> 
+            <img src = {leafLogo} className = {styles.logo}></img>
+                technolgap
+            </li>
+
+            <ActiveLink href = {`/`}>
+                 home
+            </ActiveLink>
+
+            <ActiveLink href = "/about">
+                about
+            </ActiveLink>
+        </ul>
+    </nav>;
+
+export default NavBar;  */
+
+
