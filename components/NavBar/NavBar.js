@@ -3,7 +3,7 @@ import ActiveLink from "./ActiveLink";
 const leafLogo =  require("../../images/NavBar/leafLogo.svg");
 
 
-const NavBar=()=>
+/* const NavBar=()=>
   
    
     <div  className={styles.NavBar}>
@@ -23,32 +23,41 @@ const NavBar=()=>
         
     </div>;
 
-export default NavBar;
+export default NavBar; */
+ 
 
 
-
-/* const NavBar=()=>
+const NavBar=()=>
   
-   
-    <nav  className={styles.NavBar}>
+   <div>
+   <div className = {styles.hamburgerContainer}>
+           <div className = {styles.bar1}></div>
+           <div className = {styles.bar2}></div>
+           <div className = {styles.bar3}></div>
+    </div>
+    <nav className = {styles.NavBar}>
+    <ul className = {styles.navList}>
         
-        <ul className = {styles.navList}>
-            
-            <li className = {styles.navItem}> 
+        <div className = {styles.technolgap}> 
             <img src = {leafLogo} className = {styles.logo}></img>
-                technolgap
-            </li>
+            technolgap
+        </div>
 
-            <ActiveLink href = {`/`}>
-                 home
-            </ActiveLink>
+        <ActiveLink href = {`/`}>
+                home
+        </ActiveLink>
 
-            <ActiveLink href = "/about">
-                about
-            </ActiveLink>
-        </ul>
-    </nav>;
+        <ActiveLink href = "/about">
+            about
+        </ActiveLink>
+    
 
-export default NavBar;  */
+
+    </ul>
+    
+    </nav>   
+    
+    </div>
+export default NavBar;   
 
 

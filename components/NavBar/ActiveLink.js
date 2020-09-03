@@ -10,11 +10,11 @@ export default function ActiveLink({children,href}){
     return(
         <div className = {styles.navButtons}> 
        
-        <div className = {`${router.pathname===href?styles.activePage : styles.inactivePage}`}>{children}</div>   
+        
         <Link href={href} >
              <h4>{children}</h4>
          </Link>
-        
+        <div className = {`${router.pathname===href?styles.activePage : styles.inactivePage}`}>{children}</div>   
        </div>
     );
 
