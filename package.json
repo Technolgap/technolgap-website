@@ -9,6 +9,8 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "framer": "^1.2.5",
+    "motion": "^5.0.0-beta26",
     "next": "9.5.1",
     "next-images": "^1.4.1",
     "react": "16.13.1",
