@@ -5,13 +5,25 @@
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
+    height: 70%;
     width: 100%;
-    padding: 10px 0;
-  
-    background-color: $almond;
+
+    background-image: url("../../images/header/Header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $white;
+    background-size: cover;
   
     font-family: $secondary-header-font;
     font-size: 22px;
     color: $white;
+}
+
+.HeaderMargin {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
