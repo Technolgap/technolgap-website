@@ -85,6 +85,7 @@
   justify-content: space-between;
   align-items: center;
   margin:0;
+  transition: 300ms ease-in-out;
 }
 
 
@@ -105,8 +106,8 @@
   display: none;
   position: fixed;
   top: 10px;
-  right:10px;
-  z-index: 8;
+  left:10px;
+  z-index: 11;
   
 }
 
@@ -129,29 +130,31 @@
 
   .NavBar {
     top: 10;
-    right:0;
+    left: -50px;
     width: 0rem;
     height: 100vh;
-    background-color: $white;
-    // opacity:0;
+    background-color: rgba(255,255,255,0.9);
+    // opacity: 0;
     position: fixed;
     // transition: 300ms ease-in-out;
     z-index: 10;
+    align-items: center;
        
   }
 
   .navList {
+    left:-80px;
+    position: relative;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     height: 100%;
-  
-    margin-top: 5%;
+    margin-top: 110px;
      
   }
 
   .technolgap{
-    flex-grow: 0;
+    top:80px;
+    position: fixed;
   }
 
   .activePage{
@@ -168,8 +171,14 @@
 
   .hamburgerContainer:hover ~.NavBar{
     display: block;
-    width: 10rem;
+    width: 80%;
     opacity:1;
+   
+  } 
+  
+  .hamburgerContainer:hover ~.NavBar .navList{
+    left:auto;
+   
   } 
   
   
@@ -193,7 +202,11 @@
   
   .NavBar:hover{
     display: block;
-    width: 10rem;
+    width: 80%;
+  }
+  
+  .NavBar:hover .navList{
+    left:auto;
   }
 
  
