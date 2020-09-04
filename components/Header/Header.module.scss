@@ -1,6 +1,6 @@
 @import "../../theme/theme";
 
-.Title {
+.Header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,7 +9,9 @@
     width: 100%;
     padding: 10px 0;
   
+    background-color: $almond;
+  
     font-family: $secondary-header-font;
     font-size: 22px;
-    color: $raisin-dark;
+    color: $white;
 }
