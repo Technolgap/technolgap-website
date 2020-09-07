@@ -19,7 +19,7 @@ export default function TweetCard() {
     };
     return(
         <TwitterTweetEmbed
-            tweetId={'1302781761928261632'}
+            tweetId={'1298684274598727683'}
         />
     );
 }
