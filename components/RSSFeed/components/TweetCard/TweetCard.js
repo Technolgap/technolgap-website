@@ -1,3 +1,4 @@
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 const Twitter = require('twitter');
 const client = new Twitter({
   consumer_key: process.env.consumer_key,
@@ -7,19 +8,20 @@ const client = new Twitter({
 });
 const params = {screen_name: 'technolgap', exclude_replies: true};
 
-const TweetCard = () => {
+export default function TweetCard() {
+    const tweetId = () => {
+        client.get('statuses/user_timeline', params, function(error, tweets, response) {
+            if (!error) {
+                console.log(tweets[0].id);
+                return tweets[0].id;
+            };
+        });
+    };
     return(
-        <> 
-            {client.get('statuses/user_timeline', params, function(error, tweets, response) {
-                if (!error) {
-                    console.log(tweets[0]);
-                    const tweet = tweets[0];
-                }
-            })}
-        </>
+        <TwitterTweetEmbed
+            tweetId={'1302781761928261632'}
+        />
     );
 }
-
-export default TweetCard;
 
 

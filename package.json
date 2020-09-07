@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@toast-ui/react-calendar": "^1.0.5",
+    "net": "^1.0.2",
     "next": "9.5.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-twitter-embed": "^3.0.3",
     "sass": "^1.26.10",
     "swr": "^0.3.1",
+    "tls": "0.0.1",
     "twitter": "^1.7.1"
   }
 }
