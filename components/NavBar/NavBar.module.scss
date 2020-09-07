@@ -21,10 +21,6 @@
   }
 
 
-// .technolgap{ // technolgap logo
-//     position: relative;
-//     flex-grow: 1;
-// }
 
 .technolgap{ // technolgap logo
     position: relative;
@@ -36,7 +32,6 @@
 }
 
 .navButtons{  // page navigation links
-  // position: relative;
   padding-left: 2%;
   background-color: transparent;
 }
@@ -90,7 +85,6 @@
 
 
 .navItem{
-//  position: fixed;
  cursor: pointer;
  padding-left: 10px;
 
@@ -118,7 +112,6 @@
   height: 4px;
   background-color: $raisin-dark;
   margin: 5px 0;
-  // right: 10px;
   transition: 300ms;
 
 }
@@ -130,13 +123,11 @@
 
   .NavBar {
     top: 10;
-    left: -50px;
+    left: -70px;
     width: 0rem;
     height: 100vh;
     background-color: rgba(255,255,255,0.9);
-    // opacity: 0;
     position: fixed;
-    // transition: 300ms ease-in-out;
     z-index: 10;
     align-items: center;
        
@@ -163,9 +154,7 @@
   }
 
   .hamburgerContainer{
-    // position: fixed;
     display: inline-block;
-    
 
   }
 
@@ -181,25 +170,7 @@
    
   } 
   
-  
- 
-  // .hamburgerContainer:hover .bar1{
-  //   background-color: black;
-  //   transform: rotate(45deg);
-  //   top: 10px
-  // }
-  
-  // .hamburgerContainer:hover .bar2{
-  //   background-color: black;
-  //   transform: rotate(-45deg);
-  // }
-  
-  // .hamburgerContainer:hover .bar3{
-  //   display: none;
-  // }
-
-
-  
+     
   .NavBar:hover{
     display: block;
     width: 80%;
