@@ -5,13 +5,67 @@
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
-    width: 100%;
-    padding: 10px 0;
+    //height: 60px;
+    //width: 100%;
+    padding: 150px 0;
   
-    background-color: $dusty-red;
+    background-color: white;
   
-    font-family: $body-font;
-    font-size: $body-font-size;
-    color: $raisin-dark;
 }
+.WITRedBlock {
+    position: absolute;
+    height: 604.7px;
+    width: 1174.94px;
+    background-color: #C45653;
+    left: calc(50% - 1174.94px/2 - 17.53px);
+    top: 157.3px;
+}
+
+.WITWhiteBlock {
+    position: absolute;
+    width: 1188.66px;
+    height: 609.97px;
+    left: 25px;
+    top: -25px;
+
+    background-color: #FFFFFF;
+    border: 3px solid #42241A;
+    box-sizing: border-box;
+}
+
+.WITTitle {
+    position: absolute;
+    width: 505.83px;
+    height: 62.82px;
+    left: 124.28px;
+    top: 113px;
+    font-family: $primary-header-font;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.WITUnderline {
+    position: absolute;
+    width: 505.83px;
+    height: 35px;
+    left: 117.28px;
+    top: 167.82px;
+
+    background-color: $misty-pink;
+}
+
+.WITText {
+    position: absolute;
+    width: 944.42px;
+    height: 245.46px;
+    left: 115px;
+    top: 205.82px;
+
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+
