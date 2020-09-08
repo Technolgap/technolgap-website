@@ -8,19 +8,33 @@ const client = new Twitter({
 });
 const params = {screen_name: 'technolgap', exclude_replies: true};
 
-export default function TweetCard() {
-    const tweetId = () => {
-        client.get('statuses/user_timeline', params, function(error, tweets, response) {
-            if (!error) {
-                console.log(tweets[0].id);
-                return tweets[0].id;
-            };
-        });
-    };
+export async function getStaticProps() {
+    const res = await client.get('statuses/user_timeline', params)
+      .then(function (tweets) {
+        console.log(tweets);
+      })
+      .catch(function (error) {
+        throw error;
+      })
+
+    const tweetId = await res.json()
+    console.log(res.json());
+  
+    return {
+      props: {
+        tweetId,
+      },
+    }
+  }
+
+export default function TweetCard({ tweetId }) {
     return(
+    <>
+        {console.log(tweetId)}
         <TwitterTweetEmbed
             tweetId={'1298684274598727683'}
         />
+    </>
     );
 }
 
