@@ -5,13 +5,41 @@
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
     width: 100%;
-    padding: 10px 0;
   
     background-color: $olive-drab;
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $white;
+}
+
+.jumbotron {
+    padding: 50px 200px 70px 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WITTitle {
+    font-size: 40px;
+}
+
+.WITText {
+    font-size: 25px;
+}
+
+.WITButton {
+    background-color: $olive-drab;
+    font-family: $secondary-header-font;
+    border: 2px white solid;
+    padding: 25px 80px;
+    color: white;
+    font-size: 18px;
+    margin: 50px 10px 10px 10px;
+}
+
+.centering {
+    text-align: center;
 }
