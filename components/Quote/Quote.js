@@ -1,6 +1,25 @@
 import styles from "./Quote.module.scss";
+/*function GetStyle(props) {
+    let style;
+    let block;
+    if (props.quoteStyle == "red") {
+        style = styles.WITRedBlock;
+    } else if (props.quoteStyle === "green") {
+        style = styles.WITGreenBlock;
+    } else {
+        style = styles.NoBlock;
+    }
+    if (props.whiteBlock == "wb1") {
+        block = styles.WBPos1;
+    } else if (props.whiteBlock == "wb2") {
+        block = styles.WBNoBorder
+    } else if (props.whiteBlock == "wb3") {
+        block = styles.WBPos1;
+    }
+}*/
 
 const Quote = () => <div className={styles.Quote}> 
+    
     <div className={styles.WITRedBlock}>
         <div className={styles.WITWhiteBlock}>
             <div className={styles.WITUnderline}>
@@ -14,6 +33,18 @@ const Quote = () => <div className={styles.Quote}>
             </div>
         </div>
     </div>
+    <div className={styles.container}>
+        <div className={styles.TBUnderline}>
+                    
+        </div>
+        <div className={styles.TBTitle}>
+            <h1>the problem</h1>
+        </div>
+        <div className={styles.TBText}>
+            <p>There is a significant underrepresentation of women in software development roles, with women holding only 26% of computing roles in 2014. (etc. (content not written yet))</p>
+        </div>
+    </div>
+    
 </div>;
 
 export default Quote;
