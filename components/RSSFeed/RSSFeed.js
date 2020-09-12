@@ -3,11 +3,11 @@ import Title from "../Title/Title";
 import TweetCard from "./components/TweetCard/TweetCard";
 import InstagramCard from "./components/InstagramCard/InstagramCard";
 
-const RSSFeed = () => {
+const RSSFeed = (props) => {
     return(
         <div className={styles.RSSFeed}> 
             <Title> RSSFeed </Title>
-            <TweetCard/> 
+            <TweetCard {...props} /> 
             <InstagramCard/>
         </div>
     );
