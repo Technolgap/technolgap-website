@@ -20,7 +20,7 @@ const ExecutiveMember = ({ icon, firstname, lastname, title }) => (
 );
 
 const Members = [
-    <ExecutiveMember key="Alexa" icon={AlexaIcon} firstname="Alexa" lastname="Liaskovski" title="co-founder"/>,
+    <ExecutiveMember key="Alexa" icon={AlexaIcon} firstname="Alexa" lastname="Liaskovski" title="co-founder" />,
     <ExecutiveMember key="Gina" icon={GinaIcon} firstname="Gina" lastname="Bak" title="co-founder" />,
     <ExecutiveMember key="Margie" icon={MargieIcon} firstname="Margie" lastname="Venes" title="director of external communications" />,
     <ExecutiveMember key="Monica" icon={MonicaIcon} firstname="Monica" lastname="Vu" title="director of development" />,
