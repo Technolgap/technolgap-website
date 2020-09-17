@@ -1,24 +1,23 @@
 import styles from "./Quote.module.scss";
-/*function GetStyle(props) {
-    let style;
-    let block;
-    if (props.quoteStyle == "red") {
-        style = styles.WITRedBlock;
-    } else if (props.quoteStyle === "green") {
-        style = styles.WITGreenBlock;
-    } else {
-        style = styles.NoBlock;
-    }
-    if (props.whiteBlock == "wb1") {
-        block = styles.WBPos1;
-    } else if (props.whiteBlock == "wb2") {
-        block = styles.WBNoBorder
-    } else if (props.whiteBlock == "wb3") {
-        block = styles.WBPos1;
-    }
-}*/
 
-const Quote = () => <div className={styles.Quote}> 
+function Quote(props) {
+    const {space, boxHeight, shadowColour, borderColour, text} = props;
+    return (
+        <>
+            <div className={styles.container}>
+                <div className={styles.shadowBox} style={{backgroundColor: shadowColour, height: boxHeight}}>
+                    <div className={styles.whiteBox} style={{border: '3px solid', borderColor: borderColour, height: boxHeight}}>
+                        <p className={styles.textBox} style={{padding: space}}> {text}</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </>
+    )
+}
+
+/*const Quote = () => <div className={styles.Quote}> 
     
     <div className={styles.WITRedBlock}>
         <div className={styles.WITWhiteBlock}>
@@ -45,6 +44,6 @@ const Quote = () => <div className={styles.Quote}>
         </div>
     </div>
     
-</div>;
+</div>;*/
 
 export default Quote;

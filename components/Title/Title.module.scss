@@ -13,3 +13,20 @@
     font-size: 22px;
     color: $raisin-dark;
 }
+
+.underline {
+    position: relative;
+    width: 500px;
+    height: 35px;
+    left: 265px;
+    top: 290px;
+
+    background-color: $misty-pink;
+}
+
+.title {
+    position: relative;
+    left: 272px;
+    padding: 100px 0px;
+    z-index: 5;
+}

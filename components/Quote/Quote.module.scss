@@ -1,143 +1,42 @@
 @import "../../theme/theme";
 
-.Quote {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
-    //height: 60px;
-    //width: 100%;
-    padding: 150px 0;
-  
-    background-color: white;
-  
-}
-.WITRedBlock {
-    position: absolute;
-    height: 604.7px;
-    width: 1174.94px;
-    background-color: $dusty-red;
-    left: calc(50% - 1174.94px/2 - 17.53px);
-    top: 157.3px;
-}
-
-.WITWhiteBlock {
-    position: absolute;
-    width: 1188.66px;
-    left: 25px;
-    height: 609.97px;
-    top: -25px;
-    border: 3px solid #42241A;
-    background-color: #FFFFFF;
-    
-    box-sizing: border-box;
-}
-
-.WITGreenBlock {
-    position: absolute;
-    height: 705px;
-    width: 1174.94px;
-    background-color: $olive-drab;
-    left: calc(50% - 1174.94px/2 - 17.53px);
-    top: 1481px;
-}
-
-/*#WBPos1 {
-    height: 609.97px;
-    top: -25px;
-    border: 3px solid #42241A;
-}
-
-#WBPos2 {
-    height: 702px;
-    top: 1457px;
-    border: 3px solid #42241A;
-}
-
-#WBNoBorder {
-    top: 700px;
-}
-
-
-
-.NoBlock {
-    position: absolute;
-    top: 1000px;
-}*/
-
-.WITTitle {
-    position: absolute;
-    width: 505.83px;
-    height: 62.82px;
-    left: 124.28px;
-    top: 113px;
-    font-family: $primary-header-font;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-
-.WITUnderline {
-    position: absolute;
-    width: 505.83px;
-    height: 35px;
-    left: 117.28px;
-    top: 167.82px;
-
-    background-color: $misty-pink;
-}
-
-.WITText {
-    position: absolute;
-    width: 944.42px;
-    height: 245.46px;
-    left: 115px;
-    top: 205.82px;
-
-    font-size: 25px;
-    line-height: 30px;
-    text-align: justify;
-
-    color: #000000;
-}
 
 .container {
+    display: flex;
+    padding: 10px 0 150px 0;
+    
+    width: 100%;
+}
+.shadowBox {
+    position: relative;
+    width: 1200px;
     left: calc(50% - 1174.94px/2 - 17.53px);
+    margin: 40px 0;
 }
 
-.TBUnderline {
-    position: absolute;
-    width: 505.83px;
-    height: 35px;
-    left: 264.35px;
-    top: 948.82px;
-
-    background-color: $misty-pink;
+.whiteBox {
+    position: relative;
+    width: 1200px;
+    left: 35px;
+    top: -35px;
+    background-color: white;
 }
 
-.TBTitle {
-    position: absolute;
-    width: 505.83px;
-    height: 62.82px;
-    left: 271.43px;
-    top: 921px;
-    font-family: $primary-header-font;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.TBText {
-    position: absolute;
-    width: 944.42px;
-    height: 245.46px;
-    left: 264.06px;
-    top: 1027px;
-
+.textBox {
+    position: relative;
+    width: 945px;
+    left: 50%;
+    top: 50%;
+    height: 245px;
+    transform: translateX(-50%) translateY(-50%);
+    padding-top: 50px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
     font-size: 25px;
     line-height: 30px;
     text-align: justify;
-
-    color: #000000;
 }
+
 
 
