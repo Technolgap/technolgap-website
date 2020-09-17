@@ -1,11 +1,11 @@
 import styles from "./Title.module.scss";
 
 function Title(props) {
-    const {text} = props;
+    const {underlineTop, titleTop, text} = props;
     return (
         <>
-        <div className={styles.underline}></div>
-        <div className={styles.title}>
+        <div className={styles.underline} style={{top: underlineTop}}></div>
+        <div className={styles.title} style={{top: titleTop}}>
             {text}
         </div>
         </>

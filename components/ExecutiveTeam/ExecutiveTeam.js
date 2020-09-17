@@ -6,6 +6,9 @@ const GinaIcon = require("../../images/Executives/GinaIcon.svg");
 const KateIcon = require("../../images/Executives/KateIcon.svg");
 const MargieIcon = require("../../images/Executives/MargieIcon.svg");
 const MonicaIcon = require("../../images/Executives/MonicaIcon.svg");
+const MuktaIcon = require("../../images/Executives/MuktaIcon.svg");
+const NisthalIcon = require("../../images/Executives/NishthaIcon.svg");
+const JoyceIcon = require("../../images/Executives/JoyceIcon.svg");
 
 const ExecutiveMember = ({ icon, firstname, lastname, title }) => (
     <div className={styles.Member}>
@@ -22,9 +25,9 @@ const Members = [
     <ExecutiveMember key="Margie" icon={MargieIcon} firstname="Margie" lastname="Venes" title="director of external communications" />,
     <ExecutiveMember key="Monica" icon={MonicaIcon} firstname="Monica" lastname="Vu" title="director of development" />,
     <ExecutiveMember key="Kate" icon={KateIcon} firstname="Kate" lastname="Allsebrook" title="director of engagement" />,
-    <ExecutiveMember key="Mukta" icon={KateIcon} firstname="Mukta" lastname="Manhas" title="director of mentorship" />,
-    <ExecutiveMember key="Nishtha" icon={KateIcon} firstname="Nishtha" lastname="Mavai" title="director of internal culture" />,
-    <ExecutiveMember key="Joyce" icon={KateIcon} firstname="Joyce" lastname="Bacic" title="director of mental health and wellness" />,
+    <ExecutiveMember key="Mukta" icon={MuktaIcon} firstname="Mukta" lastname="Manhas" title="director of mentorship" />,
+    <ExecutiveMember key="Nishtha" icon={NisthalIcon} firstname="Nishtha" lastname="Mavai" title="director of internal culture" />,
+    <ExecutiveMember key="Joyce" icon={JoyceIcon} firstname="Joyce" lastname="Bacic" title="director of mental health and wellness" />,
 ]
 
 const ExecutiveTeam = () => 

@@ -15,18 +15,16 @@
 }
 
 .underline {
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 35px;
-    left: 265px;
-    top: 290px;
-
+    left: 315px;
     background-color: $misty-pink;
 }
 
 .title {
-    position: relative;
-    left: 272px;
+    position: absolute;
+    left: 325px;
     padding: 100px 0px;
     z-index: 5;
 }

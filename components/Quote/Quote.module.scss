@@ -3,7 +3,7 @@
 
 .container {
     display: flex;
-    padding: 10px 0 150px 0;
+    padding: 10px 0 250px 0;
     
     width: 100%;
 }
@@ -23,13 +23,14 @@
 }
 
 .textBox {
+    font-family: Barlow;
+    font-weight: lighter !important;
     position: relative;
     width: 945px;
     left: 50%;
     top: 50%;
     height: 245px;
     transform: translateX(-50%) translateY(-50%);
-    padding-top: 50px;
     font-family: Barlow;
     font-style: normal;
     font-weight: normal;
