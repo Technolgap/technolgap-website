@@ -2,10 +2,10 @@
 
 .ExecutiveTeam {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
     width: 100%;
     padding: 10px 0;
   
@@ -14,4 +14,51 @@
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $raisin-dark;
+
+    h2 {
+        font-family: $secondary-header-font;
+        font-size: $secondary-header-font-size;
+        text-align: center;
+        margin: 0;
+    }
+    
+    p {
+        font-family: $body-font;
+        font-size: $body-font-size;
+        text-align: center;
+        margin: 0
+    }
+}
+
+.ExecutiveMembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.Member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(90% / 4 - 8rem); 
+    min-width: 100px;
+    padding: 2rem 4rem;
+}
+
+.Member:nth-child(4n) {
+    page-break-after: always; /* CSS 2.1 syntax */
+    break-after: always; /* New syntax */
+}
+
+.responsive {
+    height: 100%;
+    max-height: 10rem;
+    width: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .Member {
+        width: 200px;
+    } 
 }
