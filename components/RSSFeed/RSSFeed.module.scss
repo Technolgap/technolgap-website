@@ -1,0 +1,15 @@
+.RSSFeed {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-around;
+    flex-grow: 2;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .RSSFeed {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -5,11 +5,13 @@ import InstagramCard from "./components/InstagramCard/InstagramCard";
 
 const RSSFeed = (props) => {
     return(
-        <div className={styles.RSSFeed}> 
+        <>
             <Title> RSSFeed </Title>
-            <TweetCard {...props} /> 
-            <InstagramCard/>
-        </div>
+            <div className={styles.RSSFeed}> 
+                <TweetCard {...props} /> 
+                <InstagramCard/>
+            </div>
+        </>
     );
 }
 
