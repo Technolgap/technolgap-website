@@ -1,0 +1,11 @@
+.TweetCard {
+    height: 534px;
+    width: 540px;
+    overflow-y:scroll
+}
+
+@media only screen and (max-width: 600px) {
+    .TweetCard {
+        width: 340px;
+    }
+}
