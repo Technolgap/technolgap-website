@@ -6,7 +6,7 @@ import Header from "../components/Header/Header";
 import DynamicCalendar from '../components/Calendar/DynamicCalendar';
 
 const Index = () => <Layout>
-    This is the context for the home page.
+
     <Header /> 
 
     <AboutTechnolgapSection /> 

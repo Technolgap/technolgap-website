@@ -1,18 +1,187 @@
 @import "../../theme/theme";
 
-.NavBar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.NavBar {  // navbar container
+    // position: fixed;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
   
     height: 60px;
-    width: 100%;
-    padding: 10px 0;
+    width: 80%;
+    margin-left:10%;
+    margin-bottom: 10px;
+    
   
-    background-color: $white;
+    background-color: transparent;
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
-    color: $misty-pink;
+    color: $raisin-dark;
+    transition: width 300ms ease-in-out;
+  }
+
+
+
+.technolgap{ // technolgap logo
+    position: relative;
+    margin-right: auto;
+}
+
+.technolgap:hover{
+  cursor: default; 
+}
+
+.navButtons{  // page navigation links
+  padding-left: 2%;
+  background-color: transparent;
+}
+
+.activePage{ // active page indicator (pink rectangle behind current page link)
+  position: absolute;
+  width: auto;
+  height: 14px;
+  z-index: -1;
+  margin-left: 5px;
+  margin-top: -37px;
+  background-color: $misty-pink;
+  color: transparent;
+}
+
+
+.inactivePage{
+  position: absolute;
+  width: 56px;
+  height: 14px;
+  z-index: -1;
+  margin-left: 5px;
+  margin-top: 33px;
+  background-color: transparent;
+  color: transparent;
+  
+}
+
+.navButtons:hover{
+  cursor: pointer;
+
+}
+
+
+.logo{
+  position: absolute;
+  z-index: 1;
+  left: -24.5px;
+  top:-3px
+}
+
+
+.navList{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+  transition: 300ms ease-in-out;
+}
+
+
+.navItem{
+ cursor: pointer;
+ padding-left: 10px;
+
+
+}
+
+.navItem:first-child{
+  margin-right:auto;
+}
+
+.hamburgerContainer{
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  top: 10px;
+  left:10px;
+  z-index: 11;
+  
+}
+
+
+.bar1, .bar2, .bar3 {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: $raisin-dark;
+  margin: 5px 0;
+  transition: 300ms;
+
+}
+
+
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+
+  .NavBar {
+    top: 10;
+    left: -70px;
+    width: 0rem;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+       
+  }
+
+  .navList {
+    left:-80px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin-top: 110px;
+     
+  }
+
+  .technolgap{
+    top:80px;
+    position: fixed;
+  }
+
+  .activePage{
+    background-color: $dusty-red;
+    opacity: 0.3;
+  }
+
+  .hamburgerContainer{
+    display: inline-block;
 
   }
+
+  .hamburgerContainer:hover ~.NavBar{
+    display: block;
+    width: 80%;
+    opacity:1;
+   
+  } 
+  
+  .hamburgerContainer:hover ~.NavBar .navList{
+    left:auto;
+   
+  } 
+  
+     
+  .NavBar:hover{
+    display: block;
+    width: 80%;
+  }
+  
+  .NavBar:hover .navList{
+    left:auto;
+  }
+
+ 
+
+
+}
+
