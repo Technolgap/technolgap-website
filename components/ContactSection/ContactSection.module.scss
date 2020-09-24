@@ -12,14 +12,27 @@
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $white;
+    margin-top: 50px;
+
 }
 
 .jumbotron {
     padding: 50px 200px 70px 200px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .jumbotron {
+        padding: 50px 50px 70px 50px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .jumbotron {
+        padding: 30px;
+    }
 }
 
 .HQTitle {
@@ -37,7 +50,13 @@
     padding: 25px 80px;
     color: white;
     font-size: 18px;
+    font-weight: 600;
     margin: 50px 10px 10px 10px;
+}
+
+.HQButton:hover {
+    background-color: $white;
+    color: $raisin-dark;
 }
 
 .centering {
