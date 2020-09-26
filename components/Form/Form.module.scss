@@ -1,0 +1,79 @@
+@import "../../theme/theme";
+
+.Form {
+    list-style: none;
+    // display: flex;
+    // align-items: center;
+  
+    // height: 100px;
+    width: 80%;
+    margin: 10px 10%;
+    padding: 10px 20px;
+    border: 15px solid $dusty-red;
+
+    background-color: $white;
+  
+    font-family: $secondary-header-font;
+    font-size: $body-font-size;
+    color: $raisin-dark;
+}
+.signUp label{
+    font-family: $link;
+    font-size: 15px;
+}
+.textMessage{
+    width: 50vw;
+    height: 75px;
+    background-color: $white;
+    border-width: 0 0 2px;
+    margin-bottom: 10px; 
+    font-family: $link;
+}
+
+.textMessage:hover{
+    background-color:#f2f2f2;
+}
+
+.signUp input:hover{
+    background-color:#f2f2f2;
+}
+
+.signUp input, 
+.signUp select{
+    width: 50vw;
+    height: 20px;
+    background-color: $white;
+    border-width: 0 0 2px;
+    margin-bottom: 10px; 
+}
+
+.signUp input:focus,
+.signUp select:focus,
+.signUp textarea:focus {
+  background-color: #f2f2f2;
+  outline-style: none;
+}
+
+.signUp button{
+    background-color: $olive-drab;
+    font-family: $link;
+    font-size: $secondary-header-font-size;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+#test{
+    align-content: center;
+}
+
+#signup{
+    background-color: black;
+}
+
+#fs-frm input,
+#fs-frm select
+{
+    border-width: 0 0 1px;
+}
