@@ -19,6 +19,7 @@
     font-weight: bold;
     color: $raisin-dark;
 }
+
 .signUp label{
     font-family: $link;
     font-size: 15px;
@@ -27,8 +28,9 @@
     width: 100%;
     height: 75px;
     background-color: $white;
-    border-width: 0 0 2px;
-    margin-bottom: 10px; 
+    border-width: 0 0 1px;
+    border-color: $raisin-dark;
+    margin: 10px 0; 
     font-family: $link;
 }
 
@@ -43,9 +45,10 @@
 .signUp input, 
 .signUp select{
     width: 100%;
-    height: 20px;
+    height: 25px;
     background-color: $white;
     border-width: 0 0 1px;
+    border-color: $raisin-dark;
     margin-bottom: 10px; 
 }
 
