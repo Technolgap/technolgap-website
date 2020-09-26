@@ -7,14 +7,16 @@
   
     // height: 100px;
     width: 80%;
-    margin: 10px 10%;
-    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 40px;
     border: 15px solid $dusty-red;
+    box-sizing: border-box;
 
     background-color: $white;
   
     font-family: $secondary-header-font;
-    font-size: $body-font-size;
+    font-size: $secondary-header-font-size;
+    font-weight: bold;
     color: $raisin-dark;
 }
 .signUp label{
@@ -22,7 +24,7 @@
     font-size: 15px;
 }
 .textMessage{
-    width: 50vw;
+    width: 100%;
     height: 75px;
     background-color: $white;
     border-width: 0 0 2px;
@@ -40,10 +42,10 @@
 
 .signUp input, 
 .signUp select{
-    width: 50vw;
+    width: 100%;
     height: 20px;
     background-color: $white;
-    border-width: 0 0 2px;
+    border-width: 0 0 1px;
     margin-bottom: 10px; 
 }
 
@@ -55,21 +57,17 @@
 }
 
 .signUp button{
-    background-color: $olive-drab;
+    background-color: $white;
+    border: 2px solid $olive-drab;
     font-family: $link;
-    font-size: $secondary-header-font-size;
-    color: white;
-    padding: 10px 35px;
-    border: none;
+    font-size: $link-font-size;
+    color: $olive-drab;
+    padding: 20px 75px;
     cursor: pointer;
-}
+}å
 
 #test{
     align-content: center;
-}
-
-#signup{
-    background-color: black;
 }
 
 #fs-frm input,
