@@ -9,8 +9,9 @@
     width: 80%;
     margin: 10px auto;
     padding: 40px;
-    border: 15px solid $dusty-red;
     box-sizing: border-box;
+    border: 15px solid $dusty-red;
+
 
     background-color: $white;
   
@@ -20,10 +21,44 @@
     color: $raisin-dark;
 }
 
-.signUp label{
+.questionForm{
+    @extend .Form;
+    border: 15px solid $olive-drab;
+}
+
+.inputForm label{
     font-family: $link;
     font-size: 15px;
 }
+
+.inputForm input, 
+.inputForm select{
+    width: 100%;
+    height: 25px;
+    background-color: $white;
+    border-width: 0 0 1px;
+    border-color: $raisin-dark;
+    margin-bottom: 10px; 
+}
+
+.inputForm input:focus,
+.inputForm select:focus,
+.inputForm textarea:focus,
+.inputForm input:hover {
+  background-color: #f2f2f2;
+  outline-style: none;
+}
+
+.inputForm button{
+    background-color: $white;
+    border: 2px solid $olive-drab;
+    font-family: $link;
+    font-size: $link-font-size;
+    color: $olive-drab;
+    padding: 20px 75px;
+    cursor: pointer;
+}
+
 .textMessage{
     width: 100%;
     height: 75px;
@@ -36,45 +71,4 @@
 
 .textMessage:hover{
     background-color:#f2f2f2;
-}
-
-.signUp input:hover{
-    background-color:#f2f2f2;
-}
-
-.signUp input, 
-.signUp select{
-    width: 100%;
-    height: 25px;
-    background-color: $white;
-    border-width: 0 0 1px;
-    border-color: $raisin-dark;
-    margin-bottom: 10px; 
-}
-
-.signUp input:focus,
-.signUp select:focus,
-.signUp textarea:focus {
-  background-color: #f2f2f2;
-  outline-style: none;
-}
-
-.signUp button{
-    background-color: $white;
-    border: 2px solid $olive-drab;
-    font-family: $link;
-    font-size: $link-font-size;
-    color: $olive-drab;
-    padding: 20px 75px;
-    cursor: pointer;
-}å
-
-#test{
-    align-content: center;
-}
-
-#fs-frm input,
-#fs-frm select
-{
-    border-width: 0 0 1px;
 }
