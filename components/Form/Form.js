@@ -3,8 +3,8 @@ import styles from "./Form.module.scss";
 
 const Form = () => 
 
-    <div className={styles.Form}> 
-        <p>In order to join, you must be a female incoming or current student to an Ottawa-based post-secondary institution studying in a field related to software development.</p>
+    <section className={styles.Form}> 
+        <p>In order to join, you must identify as a woman and be incoming or current student to an Ottawa-based post-secondary institution studying in a field related to software development.</p>
         
         <div><form className={styles.inputForm} name="signup-form" action="https://formspree.io/mzbjnbdz" method="post">
                 
@@ -48,6 +48,6 @@ const Form = () =>
         
         </form></div>
 
-    </div>;
+    </section>;
 
 export default Form;

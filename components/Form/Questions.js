@@ -2,7 +2,7 @@ import styles from "./Form.module.scss";
 
 const Questions = () => 
 
-    <div className={styles.questionForm}> 
+    <section className={styles.questionForm}> 
     <p>If you have any questions about Technolgap, please fill out the following form. We will do our best to get back to you within 4 business days.</p>
 
     <div><form className={styles.inputForm} name="question-form" action="https://formspree.io/xgepvwrv" method="post">
@@ -16,6 +16,6 @@ const Questions = () =>
 
     </form></div>
 
-    </div>;
+    </section>;
 
 export default Questions;
