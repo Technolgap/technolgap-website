@@ -17,7 +17,7 @@ const Program = ({ icon, title, description }) => (
     <div className={styles.Program}>
         <img src={icon} className={styles.responsive} />
         <h2> {title} </h2>
-        <h4> {description} </h4>
+        <p> {description} </p>
     </div>
 );
 

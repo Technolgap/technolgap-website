@@ -8,11 +8,7 @@ const About = () => <Layout>
     <Quote />
     <Quote /> 
     <Programs /> 
-    
-    This is the context for the about page.
-
     <ExecutiveTeam />
-    
     </Layout>;
 
 export default About;
