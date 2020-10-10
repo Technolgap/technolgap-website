@@ -1,11 +1,11 @@
 @import "../../theme/theme";
 
-.Programs {
+.ProgramGallery {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
   
-    height: 60px;
     width: 100%;
     padding: 10px 0;
   
@@ -14,4 +14,45 @@
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $raisin-dark;
+
+    h2 {
+        font-family: $secondary-header-font;
+        font-size: $secondary-header-font-size;
+        text-align: center;
+        margin: 0;
+    }
+    
+    p {
+        font-family: $body-font;
+        font-size: $body-font-size;
+        text-align: center;
+        margin: 0
+    }
+}
+
+.Programs {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 40px;
+}
+
+.responsive {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .Program {
+        width: 400px;
+    } 
 }
