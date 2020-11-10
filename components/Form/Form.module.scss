@@ -2,19 +2,12 @@
 
 .Form {
     list-style: none;
-    // display: flex;
-    // align-items: center;
-  
-    // height: 100px;
     width: 80%;
     margin: 10px auto;
-    padding: 40px;
+    padding: 60px;
     box-sizing: border-box;
     border: 15px solid $dusty-red;
-
-
     background-color: $white;
-  
     font-family: $secondary-header-font;
     font-size: $secondary-header-font-size;
     font-weight: bold;
@@ -45,18 +38,23 @@
 .inputForm select:focus,
 .inputForm textarea:focus,
 .inputForm input:hover {
-  // background-color: #f2f2f2;
   outline-style: none;
 }
 
 .inputForm button{
     background-color: $white;
-    border: 2px solid $olive-drab;
+    border: 2px solid $raisin-dark;
     font-family: $link;
     font-size: $link-font-size;
-    color: $olive-drab;
+    color: $raisin-dark;
     padding: 20px 75px;
     cursor: pointer;
+}
+
+.inputForm button:hover{
+    background-color: $raisin-dark;
+    border: 2px solid $raisin-dark;
+    color: $white;
 }
 
 .textMessage{
@@ -67,8 +65,4 @@
     border-color: $raisin-dark;
     margin: 10px 0; 
     font-family: $link;
-}
-
-.textMessage:hover{
-    // background-color:#f2f2f2;
 }
