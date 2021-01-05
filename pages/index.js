@@ -1,21 +1,20 @@
-import Layout from "../components/Layout/Layout";
-import RSSFeed from "../components/RSSFeed/RSSFeed";
-import AboutTechnolgapSection from "../components/AboutTechnolgapSection/AboutTechnolgapSection";
-import ContactSection from "../components/ContactSection/ContactSection";
-import Header from "../components/Header/Header";
+import Layout from '../components/Layout/Layout';
+import RSSFeed from '../components/RSSFeed/RSSFeed';
+import AboutTechnolgapSection from '../components/AboutTechnolgapSection/AboutTechnolgapSection';
+import ContactSection from '../components/ContactSection/ContactSection';
+import Header from '../components/Header/Header';
 import DynamicCalendar from '../components/Calendar/DynamicCalendar';
 
-const Index = () => <Layout>
+const Index = () => (
+  <Layout>
+    <Header />
 
-    <Header /> 
+    <AboutTechnolgapSection />
 
-    <AboutTechnolgapSection /> 
-    
-    <RSSFeed /> 
-     <DynamicCalendar />
-
-    <ContactSection /> 
-
-    </Layout>;
+    <RSSFeed />
+    <DynamicCalendar />
+    <ContactSection />
+  </Layout>
+);
 
 export default Index;

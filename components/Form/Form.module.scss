@@ -1,0 +1,68 @@
+@import "../../theme/theme";
+
+.Form {
+    list-style: none;
+    width: 80%;
+    margin: 10px auto;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 15px solid $dusty-red;
+    background-color: $white;
+    font-family: $secondary-header-font;
+    font-size: $secondary-header-font-size;
+    font-weight: bold;
+    color: $raisin-dark;
+}
+
+.questionForm{
+    @extend .Form;
+    border: 15px solid $olive-drab;
+}
+
+.inputForm label{
+    font-family: $link;
+    font-size: 15px;
+}
+
+.inputForm input, 
+.inputForm select{
+    width: 100%;
+    height: 25px;
+    background-color: $white;
+    border-width: 0 0 1px;
+    border-color: $raisin-dark;
+    margin-bottom: 10px; 
+}
+
+.inputForm input:focus,
+.inputForm select:focus,
+.inputForm textarea:focus,
+.inputForm input:hover {
+  outline-style: none;
+}
+
+.inputForm button{
+    background-color: $white;
+    border: 2px solid $raisin-dark;
+    font-family: $link;
+    font-size: $link-font-size;
+    color: $raisin-dark;
+    padding: 20px 75px;
+    cursor: pointer;
+}
+
+.inputForm button:hover{
+    background-color: $raisin-dark;
+    border: 2px solid $raisin-dark;
+    color: $white;
+}
+
+.textMessage{
+    width: 100%;
+    height: 75px;
+    background-color: $white;
+    border-width: 0 0 1px;
+    border-color: $raisin-dark;
+    margin: 10px 0; 
+    font-family: $link;
+}
