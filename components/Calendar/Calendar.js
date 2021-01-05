@@ -1,37 +1,16 @@
-import Head from 'next/head';
+const GoogleCalendar = () => {
+  const isMobile = window.innerWidth < 480;
 
-import TuiCalendar from '@toast-ui/react-calendar';
-
-import useCalendar from './calendarAPI';
-
-const Calendar = () => {
-  const { data, isLoading, isError } = useCalendar();
-
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Error!</p>;
-
-  console.log(data);
-
-  return (
-    <TuiCalendar
-      calendars={[
-        {
-          id: '0',
-          name: 'Primary',
-          bgColor: '#EFD5D2',
-        },
-      ]}
-      view="month"
-      schedules={data.events}
-      timezones={[
-        {
-          timezoneOffset: -240,
-          displayLabel: 'GMT-04:00',
-          tooltip: 'Toronto / EST',
-        }
-      ]}
-    />
+  // Not quite sure why we can't use different src... But this works as an alternative
+  return isMobile ? (
+      <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=dGVjaG5vbGdhcEBnbWFpbC5jb20&amp;color=%23AD1457&amp;color=%23A79B8E&amp;mode=AGENDA"
+          style={{ borderWidth:0 }} height="600" frameBorder="0" scrolling="no" />
+  ) : (
+      <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=dGVjaG5vbGdhcEBnbWFpbC5jb20&amp;color=%23AD1457"
+          style={{ borderWidth:0 }} height="600" frameBorder="0" scrolling="no" />
   );
 };
 
-export default Calendar;
+export default GoogleCalendar;
