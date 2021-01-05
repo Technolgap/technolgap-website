@@ -4,12 +4,18 @@ body {
 
 p {
     font-family: 'Barlow', sans-serif;
+    padding: 10px;
+    margin: 0;
 } 
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin: 0;
 } 
 
 h1 {
     font-family: 'Enriqueta', serif;
+    padding:0;
+    margin: 0;
 }

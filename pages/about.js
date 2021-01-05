@@ -12,11 +12,7 @@ const About = () => <Layout>
     <Quote topSpace="none" space="none" boxHeight="700px" shadowColour="#423B0B" borderColour="black" text={<p>There exists a huge information gap between opportunities in the tech industry and the women studying software development-related fields in Ottawa. Technolgap's purpose lies in closing this gap and nixing the scarcity mindset.<br></br><br></br>We create opportunities for underrepresented post-secondary students in technology to mentor each other, develop and design tools for our organization, teach and learn from each other through workshops, and hold leadership positions throughout our teams.<br></br><br></br>We highly value sharing resources and opportunities with each other and emphasize supporting other women in tech.</p>}/>
     <Title underlineTop="1600px" titleTop="1450px" text={<h1>technolgap's mission</h1>}/>
     <Programs /> 
-    
-    This is the context for the about page.
-
     <ExecutiveTeam />
-    
     </Layout>;
 
 export default About;
