@@ -85,9 +85,8 @@ git merge master
 
 ## Pull Request Process
 1. Once you think you've finished your work or have a work in progress, then create a pull request. You will need at least three reviewers who will focus on different areas before you can merge your changes: 
-* Monica Vu: general code architecture, reusability, and maintainablity
-* Tina V: accessibility suggestions
-* One other member not mentioned above: syntax, general understanding 
+* Director of Development
+* Two other member not mentioned above: syntax, general understanding 
 
 Standards for code reviews will be posted soon. For now, you will only need approval from the first and third person. 
 
@@ -109,7 +108,7 @@ To learn more about the technologies used in this project, take a look at the fo
 
 ## Deployment 
 * We are using Heroku to deploy our website (https://technolgap.herokuapp.com/). 
-* The Director of Development (Monica Vu) will be primarily responsible for deploying changes -- you just need to make sure you're able to make changes in your localhost.
+* Anything that gets pushed to master is automatically deployed to Heroku at the moment 
 
 ## Commands
 Go to the package.json file to learn more about what commands are available.
