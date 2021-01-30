@@ -1,17 +1,1 @@
-@import "../../theme/theme";
 
-.Calendar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
-    height: 60px;
-    width: 100%;
-    padding: 10px 0;
-  
-    background-color: $white;
-  
-    font-family: $secondary-header-font;
-    font-size: $body-font-size;
-    color: $raisin-dark;
-}
