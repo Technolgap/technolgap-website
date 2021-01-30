@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 
-// TODO: Replace this with the calendar ID from the google calendar
+
 const CAL_ID = 'technolgap%40gmail.com';
 
 // TODO: Replace this with the calendar API key that you've created
