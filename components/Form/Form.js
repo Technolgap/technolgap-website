@@ -1,5 +1,4 @@
 import { getFontDefinitionFromManifest } from "next/dist/next-server/server/font-utils";
-import styles from "./Form.module.scss";
 
 const Form = () => 
 
