@@ -4,6 +4,10 @@ body {
 
 p {
     font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
     padding: 10px;
     margin: 0;
 } 
