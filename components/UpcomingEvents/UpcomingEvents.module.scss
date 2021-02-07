@@ -1,0 +1,54 @@
+@import "../../theme/theme";
+
+.background-section{
+    position: absolute;
+    width: 1441px;
+    height: 1667px;
+    left: -1px;
+    top: 1769px;
+
+    background: #FFFFFF;
+}
+
+
+.title{
+    position: absolute;
+    width: 495.09px;
+    height: 38.97px;
+    left: 115px;
+    top: 1843.97px;
+
+    background: #EFD5D2;
+}
+
+.upcoming-events{
+    position: absolute;
+    width: 379.24px;
+    height: 46.56px;
+    left: 121.93px;
+    top: 1813px;
+
+    font-family: Enriqueta;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #202030;
+}
+
+.paragraph{
+    position: absolute;
+    width: 1211px;
+    height: 178px;
+    left: 114px;
+    top: 1907px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #202030;
+}

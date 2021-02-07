@@ -4,6 +4,7 @@ import AboutTechnolgapSection from '../components/AboutTechnolgapSection/AboutTe
 import ContactSection from '../components/ContactSection/ContactSection';
 import Header from '../components/Header/Header';
 import DynamicCalendar from '../components/Calendar/DynamicCalendar';
+import UpcomingEvents from '../components/UpcomingEvents/UpcomingEvents';
 
 const Index = () => (
   <Layout>
@@ -12,6 +13,7 @@ const Index = () => (
     <AboutTechnolgapSection />
 
     <RSSFeed />
+    <UpcomingEvents/>
     <DynamicCalendar />
     <ContactSection />
   </Layout>
