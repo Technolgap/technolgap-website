@@ -26,7 +26,7 @@ Feel free to use Github Desktop (or other GUIs for version control).
 git clone [fill this with what you copied from step 0]
 ```
 
-2. Install Node (https://nodejs.org/en/download/) and SASS (https://sass-lang.com/install) if you don't have it. 
+2. Install Node (https://nodejs.org/en/download/) if you don't have it. 
 
 3. Go to the directory where you saved the code and to the folder `technolgap-website` and run the following command. 
 
