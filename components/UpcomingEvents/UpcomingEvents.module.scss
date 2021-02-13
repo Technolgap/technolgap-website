@@ -1,37 +1,35 @@
 @import "../../theme/theme";
 
 .backgroundSection{
-    position: absolute;
-    width: 1441px;
-    height: 1667px;
-    left: -1px;
-    top: 1769px;
-
-    background: #FFFFFF;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
 }
 
 
-.title{
-    position: absolute;
-    width: 495.09px;
-    height: 38.97px;
-    left: 115px;
-    top: 1843.97px;
+.titleBackground{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    left: 180px; 
+    top: 50px;
 
     background: #EFD5D2;
 }
 
 
-.upcomingEvents{
-    position: absolute;
-    width: 379.24px;
-    height: 46.56px;
-    left: 121.93px;
-    top: 1813px;
-
+.title{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    left: 5px;
+    
+    bottom: 30px;
+    
     font-family: Enriqueta;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600; 
     font-size: 40px;
     line-height: 54px;
 
@@ -40,17 +38,18 @@
 
 
 .paragraph{
-    position: absolute;
-    width: 1211px;
-    height: 178px;
-    left: 114px;
-    top: 1907px;
-
+    position: relative;
+    width: 80%;
+    height: 40px;
+    left: 200px;
+    top: 60px;
+  
     font-family: Barlow;
     font-style: normal;
-    font-weight: bold;
+   
     font-size: 25px;
     line-height: 30px;
-
+    justify-content: center;
     color: #202030;
 }
+
