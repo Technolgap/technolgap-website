@@ -9,9 +9,7 @@ import UpcomingEvents from '../components/UpcomingEvents/UpcomingEvents';
 const Index = () => (
   <Layout>
     <Header />
-
     <AboutTechnolgapSection />
-
     <RSSFeed />
     <UpcomingEvents/>
     <DynamicCalendar />

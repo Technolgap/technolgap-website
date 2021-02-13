@@ -1,7 +1,7 @@
 @import "../../theme/theme";
 
 .backgroundSection{
-    position: absolute;
+    position: relative;
     width: 1441px;
     height: 1667px;
     left: -1px;
@@ -12,7 +12,7 @@
 
 
 .title{
-    position: absolute;
+    position: relative;
     width: 495.09px;
     height: 38.97px;
     left: 115px;
@@ -21,8 +21,9 @@
     background: #EFD5D2;
 }
 
+
 .upcomingEvents{
-    position: absolute;
+    position: relative;
     width: 379.24px;
     height: 46.56px;
     left: 121.93px;
@@ -37,8 +38,9 @@
     color: #202030;
 }
 
+
 .paragraph{
-    position: absolute;
+    position: relative;
     width: 1211px;
     height: 178px;
     left: 114px;
