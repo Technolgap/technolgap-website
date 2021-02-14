@@ -33,7 +33,7 @@ const Members = [
 const ExecutiveTeam = () => 
 
 <div className={styles.ExecutiveTeam}> 
-    <Title underlineTop="" titleTop="" text={<h1>executives</h1>}/>
+    <Title underlineTop="3000px" titleTop="2850px" text={<h1>executives</h1>}/>
     <div className={styles.ExecutiveMembers}>
         {Members}
     </div>
