@@ -1,14 +1,14 @@
 @import "../../theme/theme";
 
-.backgroundSection{
+.backgroundSection {
     position: relative;
     width: 100%;
     height: 300px;
     background: #ffffff;
+    align-content: center;
 }
 
-
-.titleBackground{
+.titleBackground {
     position: relative;
     width: 30%;
     height: 40px;
@@ -18,8 +18,7 @@
     background: #EFD5D2;
 }
 
-
-.title{
+.title {
     position: relative;
     width: 100%;
     height: 70px;
@@ -37,7 +36,8 @@
 }
 
 
-.paragraph{
+
+.paragraph {
     position: relative;
     width: 80%;
     height: 40px;
@@ -51,5 +51,20 @@
     line-height: 30px;
     justify-content: center;
     color: #202030;
+    align-content: center;
+
 }
 
+@media only screen and (max-width: 1030px) {
+    .paragraph {
+        left: 50px; 
+
+    }
+    .titleBackground{
+        width: 70%;
+        left: 50px
+    }
+    .backgroundSection{
+        height: 500px
+    }
+}
