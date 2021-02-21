@@ -1,4 +1,4 @@
-import styles from "./ContactSection.module.scss";
+import styles from "./Contact&AboutSection.module.scss";
 import Link from 'next/link';
 
 const ContactSection = () => <div className={styles.ContactSection}> 

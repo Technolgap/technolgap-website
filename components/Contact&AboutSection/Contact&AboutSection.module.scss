@@ -16,6 +16,22 @@
 
 }
 
+.AboutSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+  
+    background-color: $olive-drab;
+  
+    font-family: $secondary-header-font;
+    font-size: $body-font-size;
+    color: $white;
+    margin-top: 50px;
+
+}
+
 .jumbotron {
     padding: 50px 200px 70px 200px;
     display: flex;
@@ -53,6 +69,22 @@
     font-size: 18px;
     font-weight: 600;
     margin: 50px 10px 10px 10px;
+}
+
+.WITButton {
+    background-color: $olive-drab;
+    font-family: $secondary-header-font;
+    border: 2px white solid;
+    padding: 25px 80px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px 10px 10px 10px;
+}
+
+.WITButton:hover {
+    background-color: $white;
+    color: $olive-drab;
 }
 
 .HQButton:hover {
