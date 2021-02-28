@@ -1,35 +1,17 @@
 @import "../../theme/theme";
 
-.ContactSection {
+.Section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     
     width: 100%;
-  
-    background-color: $raisin-dark;
+
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $white;
     margin-top: 50px;
-
-}
-
-.AboutSection {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    width: 100%;
-  
-    background-color: $olive-drab;
-  
-    font-family: $secondary-header-font;
-    font-size: $body-font-size;
-    color: $white;
-    margin-top: 50px;
-
 }
 
 .jumbotron {
@@ -60,8 +42,7 @@
     padding: 10px 0px 0px 0px;
 }
 
-.HQButton {
-    background-color: $raisin-dark;
+.button {
     font-family: $secondary-header-font;
     border: 2px white solid;
     padding: 25px 80px;
@@ -71,26 +52,12 @@
     margin: 50px 10px 10px 10px;
 }
 
-.WITButton {
-    background-color: $olive-drab;
-    font-family: $secondary-header-font;
-    border: 2px white solid;
-    padding: 25px 80px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 50px 10px 10px 10px;
-}
 
-.WITButton:hover {
+.button:hover {
     background-color: $white;
     color: $olive-drab;
 }
 
-.HQButton:hover {
-    background-color: $white;
-    color: $raisin-dark;
-}
 
 .centering {
     text-align: center;
