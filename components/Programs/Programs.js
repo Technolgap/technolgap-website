@@ -30,7 +30,7 @@ const ProgramsList = [
 
 const ProgramGallery = () => 
     <div> 
-    <Title underlineTop="2350px" titleTop="2200px" text={<h1>programs</h1>}/>
+    <Title titleTop={2200} text={<h1>programs</h1>}/>
     <div className={styles.Programs}>
         {ProgramsList}
     </div>

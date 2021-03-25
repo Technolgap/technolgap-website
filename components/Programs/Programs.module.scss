@@ -55,9 +55,10 @@
     height: auto;
     width: auto;
 }
-
-@media screen and (max-width: 400px) {
+//fix this
+@media screen and (max-width: 800px) {
     .Program {
         width: 400px;
+        padding: 50px 20px 50px 40px;
     } 
 }
