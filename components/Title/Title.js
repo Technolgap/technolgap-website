@@ -17,22 +17,7 @@ function Title(props) {
                 </div>
             </div>
         </>
-        // <>
-        //     <div className={styles.container}>
-        //         <div id="underlineId" className={styles.titleBackground} style={{top: titleTop}}></div>
-        //         <div className={styles.title2} style={{top: titleTop}}>
-        //             {text}
-        //         </div>
-        //     </div>
-        // </>
-
-        // const UpcomingEvents = () => 
-        // <div className={styles.backgroundSection}>
-        //     <div className={styles.titleBackground}>
-        //         <h1 className={styles.title}>upcoming events</h1>
-        //     </div>
-        //     <p className={styles.paragraph}><strong>Technolgap</strong> is dedicated to sharing knowledge and information. Check out our upcoming events, all lead and organized by women in tech! We have three main categories of events; professional development, technical, and health and wellness.</p>
-        // </div>;
+     
     )
 }
 export default Title;

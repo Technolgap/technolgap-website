@@ -26,15 +26,21 @@ const ProgramsList = [
     <Program key="SocialMedia" icon={SocialMediaIcon} title={SocialMediaTitle} description={SocialMediaDescription} />, 
     <Program key="Development" icon={DevelopmentIcon} title={DevelopmentTitle} description={DevelopmentDescription} />, 
 ]
+//want to display title like in quote where you pass in the title so it stays with the component
+//getting errors
 
-
-const ProgramGallery = () => 
-    <div> 
-    <Title titleTop={2200} text={<h1>programs</h1>}/>
-    <div className={styles.Programs}>
-        {ProgramsList}
-    </div>
-</div>
+function ProgramGallery(props) {
+    const {title} = props;
+    return(
+        <div> 
+        {/* <Title titleTop={2250} text={<h1>programs</h1>}/> */}
+            <div className={styles.Programs}>
+                <div className={styles.title}> {title}</div>
+                {ProgramsList}
+            </div>
+        </div>
+    )
+}
 
 export default ProgramGallery;
 

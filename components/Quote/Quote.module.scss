@@ -3,12 +3,14 @@
 
 .container {
     display: flex;
-    padding: 10px 0 250px 0;
+    padding: 50px 0 50px 0;
     width: 100%;
+    padding: 0px;
+        margin-top: 60px;
 }
 .title{
-    margin-bottom: 100px;
-    margin-top: 50px;
+    //margin-bottom: 30px;
+    //margin-top: 50px;
 }
 
 .shadowBox {
@@ -16,6 +18,7 @@
     left: 8%;
     right: 10%;
     width: 80%;
+    //height:70%;
     height: 650px;
 }
 
@@ -25,7 +28,12 @@
     top: -35px;
     background-color: $white;
     width: 100%;
+    //hieght: 40%;
     height: 650px;
+    //height:auto;
+    //width:auto;
+    //display:block;
+    //overflow:hidden;
 }
 
 .textBox {
@@ -36,70 +44,87 @@
     left: 50%;
     top: 50%;
     height: 245px;
+    //height:40%;
     transform: translateX(-50%) translateY(-50%);
     font-size: 25px;
     line-height: 30px;
     text-align: justify;
     width: 80%;
-    margin-bottom:50px;
+    //margin-bottom:50px;
 }
 
-@media only screen and (min-width: 993px) {
-    .container {
-        padding: 0px;
-        margin-top: 60px;
-    }
-    .shadowBox {
-        height: 650px;
-    }
-    .whiteBox {
-        height: 650px;
-    }
+@media only screen and (min-width: 1001px) {
+    // .container {
+    //     padding: 0px;
+    //     margin-top: 60px;
+    // }
+    // .shadowBox {
+    //     height: 650px;
+    // }
+    // .whiteBox {
+    //     height: 650px;
+    // }
 }
 //fix this
-@media only screen and (max-width: 992px) {
-    .container {
-        padding: 0px;
-        margin-top: 50px;
+@media only screen and (max-width: 1000px) {
+    .whiteBox{
+        height:800px;
     }
-    .shadowBox {
-        height: 700px;
-        margin: 0px;
+    .shadowBox{
+        height:800px;
     }
-    .whiteBox {
-        height: 700px;
-        margin: 0px;
+    .textBox {
+        top: 40%;
+    }
+    
+
+    
+}
+@media only screen and (max-width: 768px) {
+    .whiteBox{
+        height:900px;
+    }
+    .shadowBox{
+        height:900px;
     }
     .textBox {
         top: 35%;
-        margin-bottom: 50px;
-        font-size:16px;
     }
+
 }
 
-// @media only screen and (max-width: 768px) {
-//     .shadowBox {
-//         height: 800px;
-//     }
-//     .whiteBox {
-//         height: 800px;
-//     }
-//     .textBox {
-//         top: 30%;
-//     }
-// }
-
-// @media only screen and (max-width: 650px) {
-//     .shadowBox {
-//         height: 850px;
-//         top: 75px;
-//     }
-//     .whiteBox {
-//         height: 850px;
-//     }
-//     .textBox {
-//         top: 25%;
-//     }
-// }
+@media only screen and (max-width: 600px) {
+    .whiteBox{
+        height:1200px;
+    }
+    .shadowBox{
+        height:1200px;
+    }
+    .textBox {
+        top: 30%;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .whiteBox{
+        height:1400px;
+    }
+    .shadowBox{
+        height:1400px;
+    }
+    .textBox {
+        top: 25%;
+    }
+}
+@media only screen and (max-width: 290px) {
+    .whiteBox{
+        height:2000px;
+    }
+    .shadowBox{
+        height:2000px;
+    }
+    .textBox {
+        top: 20%;
+    }
+}
 
 
