@@ -8,8 +8,6 @@ const Facebook = require("../../images/Footer/Facebook.svg");
 const FacebookHovered = require("../../images/Footer/FacebookHovered.svg");
 const Instagram = require("../../images/Footer/Instagram.svg");
 const InstagramHovered = require("../../images/Footer/InstagramHovered.svg");
-const Medium = require("../../images/Footer/Medium.svg");
-const MediumHovered = require("../../images/Footer/MediumHovered.svg");
 const Linkedin = require("../../images/Footer/Linkedin.svg");
 const LinkedinHovered = require("../../images/Footer/LinkedInHovered.svg");
 const Twitter = require("../../images/Footer/Twitter.svg");
@@ -22,8 +20,7 @@ const Footer = () => {
     const [FBhovered, setFBHovered] = useState(false);
     const [TWhovered, setTWHovered] = useState(false);
     const [LKhovered, setLKHovered] = useState(false);
-    const [MDhovered, setMDHovered] = useState(false);
-
+    
 
 return <div className={styles.Footer}>
     <div className={styles.WhiteBackground}></div>
@@ -32,9 +29,6 @@ return <div className={styles.Footer}>
         <div className={styles.Icons}>
             <a onClick={instagramLink} onMouseEnter={() => setIGHovered(true)} onMouseLeave={() => setIGHovered(false)}>
                 <img src= {IGhovered?InstagramHovered:Instagram} className = {styles.Socials}/>
-            </a>
-            <a onClick={mediumLink} onMouseEnter={() => setMDHovered(true)} onMouseLeave={() => setMDHovered(false)}>
-                <img src= {MDhovered?MediumHovered:Medium} className = {styles.Socials}/>
             </a>
             <a onClick={twitterLink} onMouseEnter={() => setTWHovered(true)} onMouseLeave={() => setTWHovered(false)}>
                 <img src= {TWhovered?TwitterHovered:Twitter}  className = {styles.Socials}/>
@@ -60,10 +54,6 @@ function twitterLink(){
 
 function facebookLink(){
     location.href = 'https://www.facebook.com/technolgap';
-}
-
-function mediumLink(){
-
 }
 
 function instagramLink(){
