@@ -11,7 +11,8 @@ const About = () => <Layout>
     
     <Quote title={<Title titleTop={0} text={<h1>technolgap's mission</h1>}/>} topSpace="none" space="none" boxHeight="700px" shadowColour="#423B0B" borderColour="black" text={<p>There exists a huge information gap between opportunities in the tech industry and the women studying software development-related fields in Ottawa. Technolgap's purpose lies in closing this gap and nixing the scarcity mindset.<br></br><br></br>We create opportunities for underrepresented post-secondary students in technology to mentor each other, develop and design tools for our organization, teach and learn from each other through workshops, and hold leadership positions throughout our teams.<br></br><br></br>We highly value sharing resources and opportunities with each other and emphasize supporting other women in tech.</p>}/>
     
-    <Programs title={<Title titleTop={2250} text={<h1>programs</h1>}/>}/> 
+    <Programs title={<Title titleTop={0} text={<h1>programs</h1>}/>}/> 
+    {/* to much space between title and program list */}
     {/* //title in correct place at the bieginning but doesnt move down with the program list as screen width changes */}
     <ExecutiveTeam />
     </Layout>;
