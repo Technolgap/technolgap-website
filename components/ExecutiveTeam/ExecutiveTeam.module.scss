@@ -7,13 +7,14 @@
     align-items: center;
   
     width: 100%;
-    padding: 10px 0;
+    padding: 9em 0 0 0;
   
     background-color: $white;
   
     font-family: $secondary-header-font;
     font-size: $body-font-size;
     color: $raisin-dark;
+    position: relative;
 
     h2 {
         font-family: $secondary-header-font;
@@ -28,7 +29,9 @@
         text-align: center;
         margin: 0
     }
+    
 }
+
 
 .ExecutiveMembers {
     display: flex;
@@ -56,16 +59,7 @@
     max-height: 10rem;
     width: auto;
 }
-.whiteBox {
-    position: relative;
-    //left: 35px;
-    //top: -35px;
-    //background-color: $white;
-    //width: 100%;
-    //height: 650px;
-    //padding-top: 200;
-    
-}
+
 
 @media screen and (max-width: 400px) {
     .Member {

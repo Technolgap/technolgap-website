@@ -26,26 +26,17 @@ const ProgramsList = [
     <Program key="SocialMedia" icon={SocialMediaIcon} title={SocialMediaTitle} description={SocialMediaDescription} />, 
     <Program key="Development" icon={DevelopmentIcon} title={DevelopmentTitle} description={DevelopmentDescription} />, 
 ]
-//want to display title like in quote where you pass in the title so it stays with the component
-//getting errors
-//want title and programs list to stay together, same div
 
 function ProgramGallery(props) {
     const {title} = props;
     return(
         <div> 
-            <div className={styles.whiteBox} >
-                {/* <Title titleTop={2250} text={<h1>programs</h1>}/> */}
+            <div className={styles.whiteBox}>
                 {title}
                 <div className={styles.Programs}>
-                    {/* <div className={styles.title}> {title}</div> */}
-                
-                    {/* {title} */}
                     {ProgramsList}
                 </div>
-
             </div>
-        
         </div>
     )
 }

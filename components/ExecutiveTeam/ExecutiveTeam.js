@@ -33,14 +33,13 @@ const Members = [
 const ExecutiveTeam = () => 
 
 <div className={styles.ExecutiveTeam}> 
-    <div className={styles.whiteBox} >
-    <Title titleTop={-200} text={<h1>executives</h1>}/>
+    <div className={styles.title}><Title text={<h1>executives</h1>}/></div>
+
     
         <div className={styles.ExecutiveMembers}>
            
             {Members}
         </div>
-    </div>
 </div>
 
 export default ExecutiveTeam;
