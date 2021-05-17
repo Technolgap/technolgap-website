@@ -34,10 +34,7 @@ const ExecutiveTeam = () =>
 
 <div className={styles.ExecutiveTeam}> 
     <div className={styles.title}><Title text={<h1>executives</h1>}/></div>
-
-    
         <div className={styles.ExecutiveMembers}>
-           
             {Members}
         </div>
 </div>

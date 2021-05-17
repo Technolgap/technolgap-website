@@ -3,10 +3,8 @@
 
 .container {
     display: flex;
-    padding: 50px 0 50px 0;
     width: 100%;
-    padding: 0px;
-        margin-top: 60px;
+    margin-top: 60px;
 }
 
 .shadowBox {
@@ -79,10 +77,10 @@
 }
 @media only screen and (max-width: 440px) {
     .whiteBox{
-        height:1400px;
+        height:1300px;
     }
     .shadowBox{
-        height:1400px;
+        height:1300px;
     }
     .textBox {
         top: 25%;

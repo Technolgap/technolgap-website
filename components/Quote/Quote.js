@@ -1,7 +1,7 @@
 import styles from "./Quote.module.scss";
 
 function Quote(props) {
-    const {title, topSpace, space, boxHeight, shadowColour, borderColour, text} = props;
+    const {title, boxHeight, shadowColour, borderColour, text} = props;
     return (
         <>
             <div className={styles.container}>
@@ -9,8 +9,7 @@ function Quote(props) {
                     
                     <div className={styles.whiteBox} style={{border: '3px solid', borderColor: borderColour}}>
                         <div className={styles.title}> {title}</div>
-                        
-                        <p className={styles.textBox} style={{paddingTop: topSpace, padding: space}}> {text}</p>
+                        <p className={styles.textBox}> {text}</p>
                     </div>
                 </div>
             </div>
